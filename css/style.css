@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+    /* line-height: 1.5; */
+    font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif; 
+}
+.bg{
+    /* background-image: url(../images/blue-bmw-car-rain-with-headlights_916680-1.jpg); */
+    background: linear-gradient(rgba(0,0,0,-0.3), rgba(0,0,0,0.7)), url(../images/bg_1.jpg.webp) no-repeat;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    min-height: 100ch;
+    padding: 100px 0;
+}
+.heading{text-align: center;color: #fff;font-size: 20px;margin-bottom: 60px;
+}
+.heading h1{
+    
+font-weight: 400;
+}
+
+.contact_form{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.contact_info{
+
+width: 46%;
+
+align-items: center;
+}
+.contact_info h3{
+    
+color: #fff;
+    
+font-size: 31px;
+    
+font-weight: 400;
+}
+
+.info_box{
+
+display: flex;
+
+margin: 34px 0;
+}
+.icon{
+
+width: 40px;
+
+color: #fff;
+
+font-size: 18px;
+}
+.info{
+
+color: #fff;
+}
+.info h4{
+    
+text-transform: uppercase;
+    
+margin-bottom: 10px;
+    
+font-size: 22px;
+    
+color: rgb(255 255 255 / 63%);
+}
+.info p{
+    
+font-size: 16px;
+}
+
+/* mainform */
+.main_form{
+
+width: 46%;
+}
+
+.form{
+
+background-color: #fff;
+
+padding: 30px;
+
+border-radius: 8px;
+
+align-items: center;
+}
+.form h2{
+    
+margin-bottom: 20px;
+    
+font-size: 30px;
+    
+margin-left: 20px;
+    
+font-weight: 400;
+}
+
+.form form input{
+
+width: 90%;
+
+padding: 15px 0px 15px 12px;
+
+margin-bottom: 15px;
+
+/* margin-right: 49px; */
+
+font-size: 16px;
+
+margin-left: 20px;
+
+border: 0.5px solid #d7d3d3;
+}
+.form form input[type="submit"]{
+
+width: auto;
+
+padding: 13px 10px;
+
+font-size: 14px;
+
+color: #fff;
+
+background-color: #1089ff;
+
+border-color: #1089ff !important;
+border-radius: 5px;
+
+}
+.form form textarea{
+
+width: 84%;
+
+padding: 15px;
+
+margin-bottom: 15px;
+
+font-size: 16px;
+
+margin-left: 20px;
+
+border: 0.5px solid #d7d3d3;
+}
+
+.form form input:focus,  .form form textarea:focus{
+    outline: none;
+    /* box-shadow: 0px 0px 0px 0px #333; */
+}
