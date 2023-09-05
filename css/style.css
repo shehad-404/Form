@@ -68,7 +68,8 @@ width: 40px;
 
 color: #fff;
 
-font-size: 18px;
+font-size: 20px;
+margin-top: 6px;
 }
 .info{
 
@@ -150,7 +151,7 @@ border-radius: 5px;
 }
 .form form textarea{
 
-width: 84%;
+width: 85%;
 
 padding: 15px;
 
